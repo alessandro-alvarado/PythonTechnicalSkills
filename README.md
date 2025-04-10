@@ -1,92 +1,66 @@
 <h1>Python Technical Skills</h1>
 
 <h2>Introduction</h2>
-As a highly skilled SQL developer, I have developed a robust understanding of SQL syntax and
-the application of key SQL functions in real-world scenarios. The following is a detailed
-summary of my core skills, including table creation, query writing, database manipulation, and
-data integrity management.
+As part of my coursework in CISA 3335 – Data Analysis Using Python, I completed a series of hands-on projects designed to develop and showcase core data analysis skills using real-world datasets. Each assignment focused on a specific set of tools and techniques—from data wrangling and exploratory visualization to time series analysis and financial data interpretation. Below is a breakdown of the key technical skills I demonstrated across these projects, along with references to the specific files where each skill was applied.
 <br />
 
 <h2>Core Skills</h2>
 
-<b>1.  Table Creation and Data Definition</b>
-- Proficient in creating and managing relational database structures by designing tables
-and defining data types
+<b>1.  Data Wrangling & Cleaning</b>
+- Imported and parsed structured .csv datasets using pandas.read_csv().
 
-- Experienced with implementing primary keys, foreign keys, and constraints to ensure
-data integrity.
+  <b>Seen in:</b> Reading_and_Subsetting_Data, Plotting , Working_with_Dates
 
-- <b>Example:</b> Creation of customer, sales, employee, and department tables, defining
-columns, primary keys, and relationships.
+- Filtered and subsetted data using conditional logic and column selection (e.g., ZIP codes, AGI levels).
+
+  <b>Seen in:</b> Reading_and_Subsetting_Data
+
+- Created new DataFrames to isolate variables of interest.
+
+  <b>Seen in:</b> Reading_and_Subsetting_Data
 <br />
 
-<b>2. Data Insertion and Updates</b>
-- Skilled in inserting data into tables using INSERT INTO statements.
+<b>2. Aggregation & Statistical Analysis</b>
+- Summarized data using .sum(), .mean(), .std(), and grouped calculations.
 
-- Expertise in updating specific records based on conditions using UPDATE statements to
-modify existing data.
+  <b>Seen in:</b> Reading_and_Subsetting_Data, Working_with_Dates
 
-- <b>Example:</b> Inserting records for a customer and updating sales dates in sales table.
+- Analyzed financial and demographic datasets to extract meaningful patterns.
+
+  <b>Seen in:</b> Reading_and_Subsetting_Data, Working_with_Dates
 <br />
 
-<b>3. Querying Data</b>
-- Proficient in constructing both simple and complex queries to retrieve specific data from
-one or multiple tables.
+<b>3. Data Visualization</b>
+- Built visualizations using Seaborn and Matplotlib, including bar plots, box plots, histograms, and scatter plots.
 
-- Able to use SELECT with multiple filtering conditions, sorting, and aggregation to extract
-meaningful data.
+  <b>Seen in:</b> Plotting 
 
-- <b>Example:</b>  Querying inventory items, employee details, and order data using conditions
-like date ranges and price filters.
+- Applied styling, titles, and labels to improve visual clarity and presentation.
+
+  <b>Seen in:</b> Plotting 
+
+- Used count plots and comparative visualizations to explore customer trends and product data.
+
+  <b>Seen in:</b> Plotting 
 <br />
 
-<b>4. Join Operations</b>
-- Experienced in performing inner and outer joins to combine data from multiple tables.
+<b>4.  Time Series Analysis</b>
+- Parsed date data and set time-based indices with parse_dates=True and index_col.
 
-- Knowledgeable in handling one-to-many, many-to-one, and many-to-many relationships
-with joins.
+  <b>Seen in:</b> Working_with_Dates 
 
-- <b>Example:</b>  Retrieving employee and department data using inner joins, selecting
-consumers and orders using multi-table joins.
+- Conducted monthly and yearly trend analysis using .resample() and .loc[].
+
+  <b>Seen in:</b> Working_with_Dates 
+
+- Aggregated stock price data (e.g., IBM) to evaluate financial performance over time.
+
+  <b>Seen in:</b> Working_with_Dates
 <br />
 
-<b>5.  Data Manipulation and Integrity</b>
-- Expertise in updating data types and column constraints using ALTER TABLE.
+<h2>Tools & Libraries Used</h2>
+<b>Python, Pandas, Seaborn, Matplotlib, Jupyter Notebooks</b>
 
-- Experienced with adding, renaming, and dropping columns, modifying column data
-types, and applying constraints such as NOT NULL.
-
-- <b>Example:</b>  Altering the customer table to modify column types and constraints, such as
-changing ZIP code to CHAR(10).
-<br />
-
-<b>6. Delete Operations</b>
-- Skilled in using DELETE statements to remove specific data while preserving database
-integrity.
-
-- <b>Example:</b>  Deleting records from the sales table based on conditions like sales ID.
-<br />
-
-<b>7. Database Normalization and Data Integrity</b>
-- Understanding of database normalization principles to minimize data redundancy.
-
-- Ability to design and maintain databases with normalized tables to ensure consistency
-and integrity.
-<br />
-
-<b>8. Advanced SQL Features</b>
-- Familiar with advanced SQL features, including aggregate functions, subqueries, and
-data grouping.
-
-- Expertise in using JOIN and GROUP BY to manipulate and summarize data for reporting
-and analysis.
-
-- <b>Example:</b>  Complex query for inventory analysis based on price and quantity.
-<br />
-
-<b>9. SQL Optimization</b>
-- Capable of optimizing queries to improve performance, particularly when dealing with
-large datasets or complex queries.
 
 <!--
  ```diff
